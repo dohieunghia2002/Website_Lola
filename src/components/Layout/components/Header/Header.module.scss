@@ -28,9 +28,8 @@
     text-transform: uppercase;
 }
 
-
 .hotline-btn {
     background: repeating-linear-gradient(to right, red 0, #f6dc0d 50%, red 100%);
     color: var(--white-color);
-    user-select: none;
+    cursor: default !important;
 }
