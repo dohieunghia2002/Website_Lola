@@ -8,7 +8,7 @@ import Search from '../pages/Search';
 
 
 const publicRoutes = [
-    { path: '/', component: Home },
+    { path: '/', component: Home, layout: HeaderOnly },
     { path: '/flower-basket', component: FlowerBasket },
     { path: '/betrothal-grift-tray', component: BetrothalGiftTray },
     { path: '/upload', component: Upload, layout: HeaderOnly },

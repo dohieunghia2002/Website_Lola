@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.inner {
+    height: 100%;
+    padding: 0 24px;
+    width: var(--container-lg-width);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.content {
+    font-weight: 600;
+    color: #ddd;
+}

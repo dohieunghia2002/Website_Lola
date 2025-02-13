@@ -1,5 +1,13 @@
+import Banner from "./Banner";
+import CategoriesMockup from "./CategoriesMockup";
+import BusinessGallery from "./BusinessGallery";
+
 function Home() {
-    return <h2>Trang chủ</h2>
+    return <>
+        <Banner />
+        <CategoriesMockup />
+        <BusinessGallery />
+    </>
 }
 
 export default Home;

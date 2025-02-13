@@ -1,4 +1,36 @@
 .wrapper {
-    height: 68px;
+    height: var(--header-height);
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    padding: 0 24px;
+    height: 100%;
+    width: var(--container-lg-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: calc(var(--header-height) - 20px);
+
+    img {
+        height: 100%;
+    }
+}
+
+.categories {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+
+.hotline-btn {
+    background: repeating-linear-gradient(to right, red 0, #f6dc0d 50%, red 100%);
+    color: var(--white-color);
+    user-select: none;
 }
