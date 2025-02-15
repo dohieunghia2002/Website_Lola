@@ -4,6 +4,7 @@ import images from '../../../../assets/images';
 import PhoneIcon from '@mui/icons-material/Phone';
 
 import Button from '../../../Button';
+import routesConfig from '../../../../config/routes';
 
 
 const cx = className.bind(styles);
@@ -18,22 +19,22 @@ function Header() {
 
                 <ul className={cx('categories')}>
                     <li className={cx('caterory-item')}>
-                        <Button to='/' text>
+                        <Button to={routesConfig.home} text>
                             Trang chủ
                         </Button>
                     </li>
                     <li className={cx('caterory-item')}>
-                        <Button to='/flower-basket' text>
+                        <Button to={routesConfig.flowerBasket} text>
                             Giỏ hoa
                         </Button>
                     </li>
                     <li className={cx('caterory-item')}>
-                        <Button to='/betrothal-grift-tray' text>
+                        <Button to={routesConfig.betrothalGriftTray} text>
                             Tráp mâm quả
                         </Button>
                     </li>
                     <li className={cx('caterory-item')}>
-                        <Button to='/betrothal-grift-tray' text>
+                        <Button to={routesConfig.home} text>
                             Wedding & Event
                         </Button>
                     </li>

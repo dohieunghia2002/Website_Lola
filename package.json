@@ -8,6 +8,7 @@
     "@mui/icons-material": "^6.4.4",
     "@mui/material": "^6.4.4",
     "@tippyjs/react": "^4.2.6",
+    "axios": "^1.7.9",
     "classnames": "^2.5.1",
     "cra-template": "1.2.0",
     "normalize.css": "^8.0.1",
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "sass": "^1.84.0"
   }
 }

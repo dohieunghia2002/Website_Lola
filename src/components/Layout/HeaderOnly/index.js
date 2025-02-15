@@ -9,9 +9,9 @@ const cx = classNames.bind(styles);
 
 function HeaderOnly({ children }) {
     return (
-        <div>
+        <div className={cx('wrapper')}>
             <Header />
-            <Container maxWidth="lg">
+            <Container maxWidth="lg" className={cx('container')}>
                 <div className={cx('content')}>
                     {children}
                 </div>

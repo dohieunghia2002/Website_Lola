@@ -1,5 +1,6 @@
 import { HeaderOnly } from '../components/Layout';
 
+import routesConfig from '../config/routes';
 import Home from '../pages/Home';
 import FlowerBasket from '../pages/FlowerBasket';
 import BetrothalGiftTray from '../pages/BetrothalGiftTray';
@@ -8,11 +9,11 @@ import Search from '../pages/Search';
 
 
 const publicRoutes = [
-    { path: '/', component: Home, layout: HeaderOnly },
-    { path: '/flower-basket', component: FlowerBasket },
-    { path: '/betrothal-grift-tray', component: BetrothalGiftTray },
-    { path: '/upload', component: Upload, layout: HeaderOnly },
-    { path: '/search', component: Search, layout: null }
+    { path: routesConfig.home, component: Home, layout: HeaderOnly },
+    { path: routesConfig.flowerBasket, component: FlowerBasket },
+    { path: routesConfig.betrothalGriftTray, component: BetrothalGiftTray },
+    { path: routesConfig.upload, component: Upload, layout: HeaderOnly },
+    { path: routesConfig.search, component: Search, layout: null }
 ]
 
 const privateRoutes = [
