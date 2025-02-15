@@ -1,10 +1,10 @@
 import className from 'classnames/bind';
 import styles from './Header.module.scss';
-import images from '../../../../assets/images';
+import images from '../../../assets/images';
 import PhoneIcon from '@mui/icons-material/Phone';
 
-import Button from '../../../Button';
-import routesConfig from '../../../../config/routes';
+import Button from '../../../components/Button';
+import config from '../../../config';
 
 
 const cx = className.bind(styles);
@@ -19,22 +19,22 @@ function Header() {
 
                 <ul className={cx('categories')}>
                     <li className={cx('caterory-item')}>
-                        <Button to={routesConfig.home} text>
+                        <Button to={config.routes.home} text>
                             Trang chủ
                         </Button>
                     </li>
                     <li className={cx('caterory-item')}>
-                        <Button to={routesConfig.flowerBasket} text>
+                        <Button to={config.routes.flowerBasket} text>
                             Giỏ hoa
                         </Button>
                     </li>
                     <li className={cx('caterory-item')}>
-                        <Button to={routesConfig.betrothalGriftTray} text>
+                        <Button to={config.routes.betrothalGriftTray} text>
                             Tráp mâm quả
                         </Button>
                     </li>
                     <li className={cx('caterory-item')}>
-                        <Button to={routesConfig.home} text>
+                        <Button to={config.routes.home} text>
                             Wedding & Event
                         </Button>
                     </li>

@@ -3,3 +3,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.container {
+    margin-top: calc(var(--header-height) + 1rem);
+}
