@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Container from '@mui/material/Container';
 import classNames from 'classnames/bind';
 
@@ -19,6 +20,10 @@ function HeaderOnly({ children }) {
             <Footer />
         </div>
     );
+}
+
+HeaderOnly.propTypes = {
+    children: PropTypes.node.isRequired
 }
 
 export default HeaderOnly;
