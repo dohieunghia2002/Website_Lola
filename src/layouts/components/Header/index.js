@@ -1,6 +1,6 @@
 import className from 'classnames/bind';
 import styles from './Header.module.scss';
-import images from '../../../assets/images';
+// import images from '../../../assets/images';
 import PhoneIcon from '@mui/icons-material/Phone';
 
 import Button from '../../../components/Button';
@@ -14,7 +14,8 @@ function Header() {
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
                 <div className={cx('logo')}>
-                    <img src={images.logo} alt='logo' />
+                    <img src='images/logo.png' alt='logo' />
+                    {/* <img src={images.logo} alt='logo' /> */}
                 </div>
 
                 <ul className={cx('categories')}>

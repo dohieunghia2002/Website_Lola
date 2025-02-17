@@ -2,7 +2,7 @@ import Grid from '@mui/material/Grid2';
 import classnames from 'classnames/bind';
 import styles from './Home.module.scss';
 
-import images from '../../assets/images';
+// import images from '../../assets/images';
 
 const cx = classnames.bind(styles);
 
@@ -11,7 +11,8 @@ function Banner() {
         <Grid container>
             <Grid size={3}>
                 <div className={cx('logo')}>
-                    <img src={images.logoWithHeading} alt='logo' />
+                    {/* <img src={images.logoWithHeading} alt='logo' /> */}
+                    <img src='images/lolashop.png' alt='logo' />
                 </div>
             </Grid>
             <Grid size={9}>

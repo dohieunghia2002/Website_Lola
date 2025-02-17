@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa hồng kem + cúc mẫu đơn",
+        "color": [
+            "hồng, trắng"
+        ],
+        "imgUrl": "images/flower-basket/1.jpg"
+    },
+    {
+        "id": 2,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa hồng pastel + cúc mẫu đơn",
+        "color": [
+            "hồng, trắng"
+        ],
+        "imgUrl": "images/flower-basket/2.jpg"
+    },
+    {
+        "id": 3,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa hồng đỏ + hoa đồng tiền",
+        "color": [
+            "đỏ",
+            "cam"
+        ],
+        "imgUrl": "images/flower-basket/3.jpg"
+    },
+    {
+        "id": 4,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa bi",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/flower-basket/4.jpg"
+    },
+    {
+        "id": 5,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa sen trắng",
+        "color": [
+            "trắng",
+            "xanh lá"
+        ],
+        "imgUrl": "images/flower-basket/5.jpg"
+    },
+    {
+        "id": 6,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa hồng pastel + cúc mẫu đơn",
+        "color": [
+            "hồng, trắng"
+        ],
+        "imgUrl": "images/flower-basket/2.jpg"
+    },
+    {
+        "id": 7,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa hồng đỏ + hoa đồng tiền",
+        "color": [
+            "đỏ",
+            "cam"
+        ],
+        "imgUrl": "images/flower-basket/3.jpg"
+    },
+    {
+        "id": 8,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa bi",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/flower-basket/4.jpg"
+    }
+]

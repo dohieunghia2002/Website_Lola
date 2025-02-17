@@ -2,15 +2,15 @@ import Grid from '@mui/material/Grid2';
 import classnames from 'classnames/bind';
 import styles from './Home.module.scss';
 
-import images from '../../assets/images';
+// import images from '../../assets/images';
 
 const cx = classnames.bind(styles);
 
 const CATEGORY_ITEMS = [
-    { id: 1, img: images.categoryMockup, heading: 'Giỏ hoa thương mại' },
-    { id: 2, img: images.categoryMockup, heading: 'Tráp mâm quả' },
-    { id: 3, img: images.categoryMockup, heading: 'Wedding & Event' },
-    { id: 4, img: images.categoryMockup, heading: 'Lễ viếng' },
+    { id: 1, img: 'images/category-mockup.jpg', heading: 'Giỏ hoa thương mại' },
+    { id: 2, img: 'images/category-mockup.jpg', heading: 'Tráp mâm quả' },
+    { id: 3, img: 'images/category-mockup.jpg', heading: 'Wedding & Event' },
+    { id: 4, img: 'images/category-mockup.jpg', heading: 'Lễ viếng' },
 ]
 
 function CategoriesMockup() {
