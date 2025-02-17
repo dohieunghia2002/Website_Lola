@@ -49,21 +49,20 @@
     {
         "id": 6,
         "category": "giỏ hoa",
-        "name": "Giỏ hoa hồng pastel + cúc mẫu đơn",
+        "name": "Hoa hồng kem và hồng pastel",
         "color": [
             "hồng, trắng"
         ],
-        "imgUrl": "images/flower-basket/2.jpg"
+        "imgUrl": "images/flower-basket/6.jpg"
     },
     {
         "id": 7,
         "category": "giỏ hoa",
-        "name": "Giỏ hoa hồng đỏ + hoa đồng tiền",
+        "name": "Giỏ hoa sen trắng",
         "color": [
-            "đỏ",
-            "cam"
+            "trắng"
         ],
-        "imgUrl": "images/flower-basket/3.jpg"
+        "imgUrl": "images/flower-basket/7.jpg"
     },
     {
         "id": 8,

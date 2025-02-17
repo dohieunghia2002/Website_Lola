@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "category": "tráp",
+        "name": "Tráp mâm quả A",
+        "color": [
+            "hồng, trắng"
+        ],
+        "imgUrl": "images/betrothal-gift-tray/1.jpg"
+    },
+    {
+        "id": 2,
+        "category": "tráp",
+        "name": "Tráp mâm quả A",
+        "color": [
+            "hồng, trắng"
+        ],
+        "imgUrl": "images/betrothal-gift-tray/1.jpg"
+    },
+    {
+        "id": 3,
+        "category": "tráp",
+        "name": "Tráp mâm quả A",
+        "color": [
+            "đỏ",
+            "cam"
+        ],
+        "imgUrl": "images/betrothal-gift-tray/1.jpg"
+    },
+    {
+        "id": 4,
+        "category": "tráp",
+        "name": "Tráp mâm quả A",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/betrothal-gift-tray/1.jpg"
+    },
+    {
+        "id": 5,
+        "category": "tráp",
+        "name": "Tráp mâm quả A",
+        "color": [
+            "trắng",
+            "xanh lá"
+        ],
+        "imgUrl": "images/betrothal-gift-tray/1.jpg"
+    },
+    {
+        "id": 6,
+        "category": "tráp",
+        "name": "Tráp mâm quả A",
+        "color": [
+            "hồng, trắng"
+        ],
+        "imgUrl": "images/betrothal-gift-tray/1.jpg"
+    },
+    {
+        "id": 7,
+        "category": "tráp",
+        "name": "Tráp mâm quả A",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/betrothal-gift-tray/1.jpg"
+    },
+    {
+        "id": 8,
+        "category": "tráp",
+        "name": "Tráp mâm quả A",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/betrothal-gift-tray/1.jpg"
+    }
+]
