@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category": "giỏ hoa",
-        "name": "Giỏ hoa hồng kem + cúc mẫu đơn",
+        "name": "Giỏ hoa A",
         "color": [
             "hồng, trắng"
         ],
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "category": "giỏ hoa",
-        "name": "Giỏ hoa hồng pastel + cúc mẫu đơn",
+        "name": "Giỏ hoa B",
         "color": [
             "hồng, trắng"
         ],
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "category": "giỏ hoa",
-        "name": "Giỏ hoa hồng đỏ + hoa đồng tiền",
+        "name": "Giỏ hoa C",
         "color": [
             "đỏ",
             "cam"
@@ -30,7 +30,7 @@
     {
         "id": 4,
         "category": "giỏ hoa",
-        "name": "Giỏ hoa bi",
+        "name": "Giỏ hoa D",
         "color": [
             "trắng"
         ],
@@ -39,7 +39,7 @@
     {
         "id": 5,
         "category": "giỏ hoa",
-        "name": "Giỏ hoa sen trắng",
+        "name": "Giỏ hoa E",
         "color": [
             "trắng",
             "xanh lá"
@@ -49,7 +49,7 @@
     {
         "id": 6,
         "category": "giỏ hoa",
-        "name": "Hoa hồng kem và hồng pastel",
+        "name": "Hoa hồng F",
         "color": [
             "hồng, trắng"
         ],
@@ -58,7 +58,7 @@
     {
         "id": 7,
         "category": "giỏ hoa",
-        "name": "Giỏ hoa sen trắng",
+        "name": "Giỏ hoa G",
         "color": [
             "trắng"
         ],
@@ -67,10 +67,102 @@
     {
         "id": 8,
         "category": "giỏ hoa",
-        "name": "Giỏ hoa bi",
+        "name": "Giỏ hoa H",
         "color": [
             "trắng"
         ],
-        "imgUrl": "images/flower-basket/4.jpg"
+        "imgUrl": "images/flower-basket/8.jpg"
+    },
+    {
+        "id": 9,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa I",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/flower-basket/9.jpg"
+    },
+    {
+        "id": 10,
+        "category": "giỏ hoa",
+        "name": "Giỏ hoa J",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/flower-basket/10.jpg"
+    },
+    {
+        "id": 11,
+        "category": "vali hoa",
+        "name": "Vali hoa A",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/flower-suitcase/1.jpg"
+    },
+    {
+        "id": 12,
+        "category": "vali hoa",
+        "name": "Vali hoa B",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/flower-suitcase/2.jpg"
+    },
+    {
+        "id": 13,
+        "category": "vali hoa",
+        "name": "Vali hoa C",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/flower-suitcase/3.jpg"
+    },
+    {
+        "id": 14,
+        "category": "vali hoa",
+        "name": "Vali hoa D",
+        "color": [
+            "trắng"
+        ],
+        "imgUrl": "images/flower-suitcase/4.jpg"
+    },
+    {
+        "id": 15,
+        "category": "vali hoa",
+        "name": "Vali hoa E",
+        "color": [
+            "hồng"
+        ],
+        "imgUrl": "images/flower-suitcase/5.jpg"
+    },
+    {
+        "id": 16,
+        "category": "vali hoa",
+        "name": "Vali hoa F",
+        "color": [
+            "đỏ"
+        ],
+        "imgUrl": "images/flower-suitcase/6.jpg"
+    },
+    {
+        "id": 17,
+        "category": "vali hoa",
+        "name": "Vali hoa G",
+        "color": [
+            "đen",
+            "đỏ"
+        ],
+        "imgUrl": "images/flower-suitcase/7.jpg"
+    },
+    {
+        "id": 18,
+        "category": "vali hoa",
+        "name": "Vali hoa H",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/8.jpg"
     }
 ]

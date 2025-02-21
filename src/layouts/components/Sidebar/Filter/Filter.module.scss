@@ -63,3 +63,60 @@ ul {
 .checkbox-item-input:checked~.checkbox-item-label:after {
     opacity: 1;
 }
+
+.filter-select-color {
+    overflow: hidden;
+    display: grid;
+    gap: 6px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.filter-select-color-item {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.select-color-label {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    white-space: nowrap;
+
+    span {
+        margin-top: 4px;
+        font-size: 13px;
+        color: #555;
+        text-transform: capitalize;
+    }
+}
+
+.select-color-btn {
+    border: 1px solid #bebebe;
+    border-radius: 50%;
+    height: 26px;
+    margin: 4px;
+    position: relative;
+    width: 26px;
+
+    &::before {
+        border: 2px solid transparent;
+        border-radius: 50%;
+        content: "";
+        height: 32px;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 32px;
+        transition: border-color 0.3s ease;
+    }
+}
+
+.checkbox-item-input:checked+.select-color-label .select-color-btn::before {
+    border-color: #2f5acf;
+}
