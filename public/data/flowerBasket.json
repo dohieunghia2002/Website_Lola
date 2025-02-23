@@ -164,5 +164,95 @@
             "xanh dương"
         ],
         "imgUrl": "images/flower-suitcase/8.jpg"
+    },
+    {
+        "id": 19,
+        "category": "vali hoa",
+        "name": "Vali hoa I",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/9.jpg"
+    },
+    {
+        "id": 20,
+        "category": "vali hoa",
+        "name": "Vali hoa K",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/10.jpg"
+    },
+    {
+        "id": 21,
+        "category": "vali hoa",
+        "name": "Vali hoa L",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/11.jpg"
+    },
+    {
+        "id": 22,
+        "category": "vali hoa",
+        "name": "Vali hoa M",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/12.jpg"
+    },
+    {
+        "id": 23,
+        "category": "vali hoa",
+        "name": "Vali hoa N",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/13.jpg"
+    },
+    {
+        "id": 24,
+        "category": "vali hoa",
+        "name": "Vali hoa O",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/14.jpg"
+    },
+    {
+        "id": 25,
+        "category": "vali hoa",
+        "name": "Vali hoa P",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/15.jpg"
+    },
+    {
+        "id": 26,
+        "category": "vali hoa",
+        "name": "Vali hoa Q",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/16.jpg"
+    },
+    {
+        "id": 27,
+        "category": "vali hoa",
+        "name": "Vali hoa R",
+        "color": [
+            "trắng",
+            "xanh dương"
+        ],
+        "imgUrl": "images/flower-suitcase/17.jpg"
     }
 ]
