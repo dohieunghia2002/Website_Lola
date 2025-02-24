@@ -19,3 +19,14 @@
     font-weight: 600;
     color: #ddd;
 }
+
+@media (max-width: 1199px) {
+    .wrapper {
+        margin-top: 4rem;
+        height: 54px;
+    }
+
+    .inner {
+        width: var(--container-md-width);
+    }
+}

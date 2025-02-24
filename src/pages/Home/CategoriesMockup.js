@@ -15,9 +15,9 @@ const CATEGORY_ITEMS = [
 
 function CategoriesMockup() {
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={{ lg: 2, md: 5, sm: 3 }}>
             {CATEGORY_ITEMS.map((item) => (
-                <Grid size={{ lg: 3 }} key={item.id}>
+                <Grid size={{ lg: 3, md: 6, sm: 6 }} key={item.id}>
                     <Link to={item.to}>
                         <div className={cx('category-item')}>
                             <div className={cx('category-img')}>

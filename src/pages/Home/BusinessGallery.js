@@ -26,14 +26,14 @@ const BUSINESS_IMAGES = [
 function BusinessGallery() {
     return (
         <Grid container spacing={1} className={cx('gallery-wrapper')}>
-            <Grid size={{ lg: 7 }}>
+            <Grid size={{ lg: 7, md: 12 }}>
                 <div className={cx('gallery-item')}>
                     <div className={cx('gallery-img')}>
                         <img src={BUSINESS_IMAGES[0].src} alt="ảnh sưu tập" />
                     </div>
                 </div>
             </Grid>
-            <Grid size={{ lg: 5 }}>
+            <Grid size={{ lg: 5, md: 6 }} offset={{ md: 3 }}>
                 <div className={cx('gallery-item')}>
                     <div className={cx('gallery-img')}>
                         <img src={BUSINESS_IMAGES[1].src} alt="ảnh sưu tập" />
@@ -42,7 +42,7 @@ function BusinessGallery() {
             </Grid>
 
             {BUSINESS_IMAGES.slice(2).map((item) => (
-                <Grid size={{ lg: 3 }} key={item.id}>
+                <Grid size={{ lg: 3, md: 6 }} key={item.id}>
                     <div className={cx('gallery-item', 'shorter')}>
                         <div className={cx('gallery-img')}>
                             <img src={item.src} alt="ảnh sưu tập" />
